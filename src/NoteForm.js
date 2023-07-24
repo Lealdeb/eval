@@ -42,7 +42,7 @@ const NoteForm = ({ addNote }) => {
                 value={title}
                 onChange={(e) => setTitle(e.target.value)} // Actualizar el valor del título en el estado
               />
-              {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Mostrar el mensaje de error si existe */}
+              {errorMessage && <div className="error-message text-danger">{errorMessage}</div>} {/* Mostrar el mensaje de error si existe */}
             </div>
             <div className="col" >
               <input
