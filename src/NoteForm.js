@@ -64,7 +64,7 @@ const NoteForm = ({ addNote }) => {
                   onChange={(e) => setImportant(e.target.checked)} // Actualizar el valor de la importancia en el estado
                 />
                 <br></br>
-                <p className='nota-importante'>NOTA: Las tareas importantes se marcarán en un color diferente.</p>
+                <p className='nota-importante'>NOTA: Las tareas importantes se marcarán con la nota en rojo.</p>
                 
               </label>
             </div>
